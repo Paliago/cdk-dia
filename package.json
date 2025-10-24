@@ -5,7 +5,6 @@
   "scripts": {
     "build-watch": "tsc --watch",
     "build": "tsc",
-    "prepare": "tsc",
     "prepublishOnly": "./scripts/npm-prepare.sh",
     "test": "tsc && jest"
   },
