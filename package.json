@@ -4,7 +4,7 @@
   "description": "🎡 Automated diagrams of CDK provisioned infrastructure",
   "scripts": {
     "build-watch": "tsc --watch",
-    "build": "tsc",
+    "build": "tsc && ./scripts/npm-prepare.sh",
     "prepublishOnly": "./scripts/npm-prepare.sh",
     "test": "tsc && jest"
   },
